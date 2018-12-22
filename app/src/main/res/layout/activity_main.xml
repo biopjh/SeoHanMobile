@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></WebView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        tools:background="#666666">
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1px"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/btnhome_black_24dp"
+            android:drawableStart="@drawable/btnhome_black_24dp"
+            android:paddingLeft="20px"
+            android:paddingTop="4dp"
+            android:src="@drawable/btnhome_black_24dp" />
+
+
+
+        <ImageButton
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1px"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/btnprev_black_24dp"
+            android:drawableStart="@drawable/btnprev_black_24dp"
+            android:paddingLeft="10px"
+            android:paddingTop="4dp"
+            android:src="@drawable/btnprev_black_24dp" />
+
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1px"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/btnnext_black_24dp"
+            android:drawableStart="@drawable/btnnext_black_24dp"
+            android:paddingLeft="10px"
+            android:paddingTop="4dp"
+            android:src="@drawable/btnnext_black_24dp" />
+
+
+
+        <ImageButton
+            android:id="@+id/btnRenew"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1px"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/btnrenew_black_24dp"
+            android:drawableStart="@drawable/btnrenew_black_24dp"
+            android:paddingLeft="10px"
+            android:paddingTop="4dp"
+            android:src="@drawable/btnrenew_black_24dp" />
+
+
+        <ImageButton
+            android:id="@+id/btnConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1px"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/ic_notifications_none_black_24dp"
+            android:drawableStart="@drawable/ic_notifications_none_black_24dp"
+            android:paddingLeft="10px"
+            android:paddingTop="4dp"
+            android:src="@drawable/ic_notifications_none_black_24dp" />
+
+
+
+        <ImageButton
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1px"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:drawableLeft="@drawable/btnclose_black_24dp"
+            android:drawableStart="@drawable/btnclose_black_24dp"
+            android:paddingLeft="0px"
+            android:paddingRight="20px"
+            android:paddingTop="4dp"
+            android:src="@drawable/btnclose_black_24dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "800239384099",
+    "firebase_url": "https://seohanmobile.firebaseio.com",
+    "project_id": "seohanmobile",
+    "storage_bucket": "seohanmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800239384099:android:0faf9b15afed05fd",
+        "android_client_info": {
+          "package_name": "com.sh.m.seohanmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800239384099-6ljmm1k5e8fshu4817ojs6514getr0ik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpvw8BrATvwOlk2M0KQnmfh68m1mRpOX0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
